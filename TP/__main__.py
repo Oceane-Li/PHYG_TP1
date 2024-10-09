@@ -33,12 +33,12 @@ def jaccard(indexA, fileB, k):
     Calcule l'indice de Jaccard entre deux fichiers de séquences d'ADN.
     ----------
     Params:
-            - fileA: séquences ADN du fichier 1.
-            - fileB: séquences ADN du fichier 2.
-            - k: taille des k-mers.
+        - indexA: indexe des séquences ADN du fichier 1.
+        - fileB: séquences ADN du fichier 2.
+        - k: taille des k-mers.
     ----------
     Returns:
-            - jaccard_index: Indice de Jaccard entre les 2 fichiers.
+        - jaccard_index: Indice de Jaccard entre les 2 fichiers.
     """
 
     # Calculation of the jaccard distance
