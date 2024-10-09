@@ -44,7 +44,7 @@ Pour cela, depuis la racine de mon projet je dois effectuer la liste des command
 
 ```bash
     # Installe localement l'outil seqdd depuis le répertoire nommé seqdd
-    python3 -m pip install --user seqdd
+    python3 -m pip install --user seqdd/
     # Initialise le registre de données avec le fichier .reg du tp
     seqdd init -r dataset.reg
     # Télécharge les données depuis le European Nucleotide Archive (ENA)
